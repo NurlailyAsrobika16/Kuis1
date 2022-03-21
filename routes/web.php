@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('home',function() {
-    return view('master');
+    return view('home');
 });
